@@ -70,7 +70,7 @@ body {
 .message-wrapper input:focus {
   border-color: #169e97;
 }
-.message-wrapper button {
+.message-wrapper .button {
   background: #c41648;
   font-family: "Josefin Sans", sans-serif;
   color: white;
@@ -162,4 +162,12 @@ body {
     fill: rgba(196, 22, 72, 0.1);
     stroke: rgba(196, 22, 72, 0.1);
   }
+}
+
+#mc_embed_signup_scroll {
+  width: 100%;
+}
+
+#mce-responses .response {
+  margin-bottom: 10px;
 }
